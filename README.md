@@ -7,3 +7,7 @@ https://unityroom.com/games/goodluck
 コピペOKだけど、本質的には辞めた方がいいとおもう( ´∀｀ )
 
 マサカリは優しく投げてください。
+
+根っこは　Scripts/GameManager.cs　なのでそこから読み進めるといい感じです。
+
+DIは漢のFind..<>()と[SerializeField]
