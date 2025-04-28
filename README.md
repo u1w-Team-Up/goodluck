@@ -11,3 +11,5 @@ https://unityroom.com/games/goodluck
 根っこは　Scripts/GameManager.cs　なのでそこから読み進めるといい感じです。
 
 DIは漢のFind..<>()と[SerializeField]
+
+Scripts/Utilities は秘伝のたれみたいなものです。みんなも持ってるよね？
