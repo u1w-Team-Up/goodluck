@@ -86,7 +86,7 @@ public class GameOverCanvas : CanvasBase
             UnityroomClient client = new()
             {
                 // HmacKeyにAPIキー画面から取得したHMAC認証用キーを渡します
-                HmacKey = "p3ju7TPj0ao9fuSTkK9lY9G0BHn7c9uxLTuhu0dfBsM9o1Ztjv6s/1L0QRZEsak0rF0iIT4vICt4b50FVZ5nSA=="
+                HmacKey = "＊＊＊"
             };
             await client.Scoreboards.SendAsync(new SendScoreRequest() { ScoreboardId = 1, Score = _gameData.Day.CurrentValue }, ct);
             await client.Scoreboards.SendAsync(new SendScoreRequest() { ScoreboardId = 2, Score = _gameData.Money.CurrentValue }, ct);
